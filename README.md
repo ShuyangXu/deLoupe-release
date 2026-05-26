@@ -30,7 +30,7 @@ deloupe extract cloupe.cloupe -o outdir/
 
 #### macOS
 
-##### arm64
+##### arm64 / amd64
 
 **Note:** Files downloaded via browser may have the `com.apple.quarantine` extended attribute applied by macOS. Since the binary is ad-hoc signed, you may need to remove this attribute before running:
 
@@ -42,10 +42,6 @@ Then run:
 ```bash
 deloupe extract cloupe.cloupe -o outdir/
 ```
-
-##### amd64
-
-Intel-based macOS builds are not available. GitHub Actions has deprecated Intel macOS runners and reduced resource allocation for legacy architecture support.
 
 #### Windows
 
